@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 import Footer from '@/app/components/FooterSection';
 import Navbar from '@/app/components/Navbar';
 const brand = {

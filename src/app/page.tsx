@@ -8,8 +8,6 @@ import TopCategorySection from './components/TopCategorySection';
 import HowItWorksSection from './components/HowItWorksSection';
 import CallToActionSection from './components/CallToActionSection';
 import SectorSliderSection from './components/SectorSliderSection';
-import ManagerNoteSection from './components/ManagerNoteSection';
-import TestimonialsSection from './components/TestimonalSection';
 import FooterSection from './components/FooterSection';
 import Loader from "./components/Loader";
 

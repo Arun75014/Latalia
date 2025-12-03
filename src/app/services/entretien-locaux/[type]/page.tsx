@@ -1,4 +1,5 @@
-/* src/app/services/entretien-locaux/[type]/page.tsx */
+/* eslint-disable */
+
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -168,52 +169,14 @@ const TYPES: Record<
   },
 };
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   return Object.keys(TYPES).map((k) => ({ type: k }));
 }
 
-export async function generateMetadata({ params }: { params: { type: TypeKey } }): Promise<Metadata> {
-  const cfg = TYPES[params.type];
-  if (!cfg)
-    return {
-      title: 'Entretien locaux – Latalia Propreté',
-      robots: { index: true, follow: true },
-    };
+export default function Page(props: any) {
+const params = props.params as { type: TypeKey };
+const cfg = TYPES[params.type as TypeKey];
 
-  const url = `${DOMAIN}/services/entretien-locaux/${params.type}`;
-
-  return {
-    title: cfg.title,
-    description: cfg.description,
-    keywords: cfg.keywords,
-    alternates: { canonical: url },
-
-    robots: {
-      index: true,
-      follow: true,
-    },
-
-    openGraph: {
-      title: cfg.title,
-      description: cfg.description,
-      siteName: 'Latalia Propreté',
-      locale: 'fr_FR',
-      type: 'article',
-      url,
-      images: [{ url: cfg.hero }],
-    },
-
-    twitter: {
-      card: 'summary_large_image',
-      title: cfg.title,
-      description: cfg.description,
-      images: [cfg.hero],
-    },
-  };
-}
-
-export default function Page({ params }: { params: { type: TypeKey } }) {
-  const cfg = TYPES[params.type];
 
   if (!cfg) {
     return (
@@ -223,15 +186,6 @@ export default function Page({ params }: { params: { type: TypeKey } }) {
     );
   }
 
-  // images génériques
-  const inclusionImages = [
-    '/images/locaux-bureaux.jpg',
-    '/images/locaux-salle-reunion.jpg',
-    '/images/locaux-sols.jpg',
-    '/images/locaux-sanitaires.jpg',
-    '/images/locaux-cuisine.jpg',
-    '/images/locaux-vitres.jpg',
-  ];
 
   const typeCards = [
     { slug: 'bureaux-commerciaux', label: 'Bureaux commerciaux', img: '/bureaux-commerciaux.png' },

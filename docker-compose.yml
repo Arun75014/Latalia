@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  latalia:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: latalia-proprete
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+

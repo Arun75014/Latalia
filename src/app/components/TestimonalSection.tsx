@@ -105,7 +105,7 @@ export default function TestimonialsSection() {
         {/* Call to action */}
         <div className="text-center mt-12">
           <a
-            href="/#devis"
+            href="#devis"
             className="inline-block bg-[#0B3454] text-white px-8 py-3 rounded-xl text-sm font-semibold hover:bg-[#0e406a] transition"
           >
             Lire plus d’avis clients

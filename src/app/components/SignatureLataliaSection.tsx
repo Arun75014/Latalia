@@ -75,7 +75,7 @@ export default function SignatureLataliaSection() {
             Chez <strong>Latalia Propreté</strong>, nous prenons soin de votre
             environnement, de votre santé et de celle de nos équipes. Nos
             prestations <strong>Healthy</strong> allient efficacité,
-            respect de la planète et qualité de l'air intérieur.
+            respect de la planète et qualité de l&apos;air intérieur.
           </p>
 
           <p className="text-slate-700 leading-relaxed mb-4">

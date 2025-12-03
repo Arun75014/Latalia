@@ -117,7 +117,7 @@ export default function HautePressionPage() {
             </div>
 
             <p className="mt-4 text-xs text-slate-500">
-              Équipé d'appareils HP professionnels adaptés aux matériaux.
+              Équipé d&apos;appareils HP professionnels adaptés aux matériaux.
             </p>
           </div>
         </section>

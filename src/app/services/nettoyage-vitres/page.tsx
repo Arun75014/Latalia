@@ -174,7 +174,7 @@ export default function NettoyageVitresPage() {
             <div className="flex items-center gap-3">
               <Image src="/logo-healthy-home.png" alt="logo latalia" width={36} height={36} />
               <p className="text-sm font-semibold" style={{ color: brand.navy }}>
-                Option "Signature Latalia"
+                Option &quot;Signature Latalia&quot;
               </p>
             </div>
             <p className="mt-3 text-sm text-slate-700">

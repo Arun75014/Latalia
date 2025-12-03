@@ -56,7 +56,7 @@ export default function ServiceTemplate({
   };
   faqs: FaqItem[];
   extraSections?: React.ReactNode;
-  jsonLd?: Record<string, any>;
+  jsonLd?: Record<string, unknown>;
 }) {
   return (
     <main className="min-h-screen bg-white">
@@ -64,7 +64,6 @@ export default function ServiceTemplate({
       {jsonLd && (
         <script
           type="application/ld+json"
-          // @ts-ignore
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       )}

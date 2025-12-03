@@ -132,7 +132,7 @@ export default function DebarrasEncombrantsPage() {
             </h3>
             <ul className="space-y-3 text-slate-700">
               <li>Les accès doivent être dégagés pour le transport.</li>
-              <li>Les encombrants doivent être déplaçables jusqu'au véhicule.</li>
+              <li>Les encombrants doivent être déplaçables jusqu&apos;au véhicule.</li>
             </ul>
           </div>
 
