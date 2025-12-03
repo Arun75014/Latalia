@@ -11,6 +11,7 @@ import SectorSliderSection from './components/SectorSliderSection';
 import ManagerNoteSection from './components/ManagerNoteSection';
 import TestimonialsSection from './components/TestimonalSection';
 import FooterSection from './components/FooterSection';
+import Loader from "./components/Loader";
 
 export default function HomePage() {
   return (
@@ -94,7 +95,7 @@ export default function HomePage() {
       </Head>
 
       {/* ---------------------------- PAGE CONTENT ---------------------------- */}
-
+      <Loader />
       <Navbar />
 
       <main>

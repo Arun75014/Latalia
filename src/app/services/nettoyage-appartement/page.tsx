@@ -234,7 +234,7 @@ export default function NettoyageAppartementPage() {
               Résultats en images
             </h3>
             <div className="grid md:grid-cols-3 gap-6">
-              {['/cuisine-salle-de-bain.jpg', '/douche.jpg', '/cuisine-salle-de-bain.jpg'].map((src) => (
+              {['/cuisine-salle-de-bain.jpg', '/douche.jpg'].map((src) => (
                 <div key={src} className="relative aspect-[4/3] overflow-hidden rounded-2xl">
                   <Image
                     src={src}

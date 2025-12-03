@@ -40,7 +40,7 @@ export default function CristallisationMarbrePage() {
         <section className="relative isolate">
           <div className="absolute inset-0 -z-10">
             <Image
-              src="/images/marbre-hero.jpg"
+              src="/cristallisation-de-marbre.jpg"
               alt="Cristallisation du marbre à Paris et IDF"
               fill
               className="object-cover"
@@ -116,13 +116,13 @@ export default function CristallisationMarbrePage() {
               <InclusionCard
                 title="Aspiration ou balayage"
                 desc="Retrait préalable des poussières et particules pour préparer la cristallisation."
-                img="/images/marbre-balayage.jpg"
+                img="/aspiration.jpeg"
               />
 
               <InclusionCard
                 title="Cristallisation du marbre"
                 desc="Monobrosse équipée d’un disque inox ou application de produit cristallisant selon le type de marbre."
-                img="/images/marbre-cristallisation.jpg"
+                img="/inox-marbre.jpg"
               />
             </div>
 

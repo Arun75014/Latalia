@@ -6,7 +6,7 @@ import Navbar from '@/app/components/Navbar';
 import Footer from '@/app/components/FooterSection';
 import HSESection from "@/app/components/HSESection";
 
-const DOMAIN = "https://www.exemple.com"; // ← ⚠️ À remplacer par ton vrai domaine
+const DOMAIN = "https://www.latalia-proprete.fr";
 
 const brand = {
   teal: '#54beea',

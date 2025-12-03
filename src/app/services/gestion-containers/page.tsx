@@ -50,7 +50,7 @@ export default function GestionContainersPage() {
         <section className="relative isolate">
           <div className="absolute inset-0 -z-10">
             <Image
-              src="/bennes_bis.jpeg"
+              src="/bennes_three.jpg"
               alt="Gestion des containers et sortie des bacs à Paris"
               fill
               className="object-cover"
